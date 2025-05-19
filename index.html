@@ -917,6 +917,33 @@ body.dark-mode .edit-form label {
 color: var(--dark-text);
 }
 
+.also-check-out {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.also-check-out h2 {
+  color: var(--primary);
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--background);
+  padding-bottom: 10px;
+}
+.also-check-out ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.also-check-out a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.also-check-out a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
 body.dark-mode footer {
 color: var(--dark-text-light);
 }
@@ -1077,6 +1104,16 @@ nav ul li {
 </div>
 </section>
 
+<section class="also-check-out">
+  <h2>Also Check Out</h2>
+  <ul>
+    <li>
+      <a href="https://little-chefs.vercel.app" target="_blank" rel="noopener">
+        Little Chefs
+      </a>
+    </li>
+  </ul>
+</section>
 <footer>
 <p>&copy; 2025 Charvi's Personal Website. All rights reserved.</p>
 </footer>
